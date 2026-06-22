@@ -1,14 +1,14 @@
 # Mi Primer Proyecto
 
-Este es un projecto de prueba para aprender a usar GitHub.
+Este es un proyecto de prueba para aprender a usar GitHub.
 
-## Caracteristicas
+## Características
 
-- Simple y facil de usar
-- Ideal para principantes
-- Documentacion en progreso
+- Simple y fácil de usar
+- Ideal para principiantes
+- Documentación en progreso
 
-## Como usar
+## Cómo usar
 
 1. Clona el repositorio
 2. Instala las dependencias
