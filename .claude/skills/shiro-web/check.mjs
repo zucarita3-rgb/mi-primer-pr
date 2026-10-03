@@ -2,7 +2,7 @@
 // Uso: node check.mjs <url> <carpeta-salida>
 import { chromium } from '/opt/node22/lib/node_modules/playwright/index.mjs';
 const [url = 'https://shirowellness.com/', out = '.'] = process.argv.slice(2);
-const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium' });
+const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium', args: ['--ignore-certificate-errors'] }) // el proxy del entorno usa su propia CA;
 let fallas = 0;
 for (const w of [1440, 390]) {
   const p = await b.newPage({ viewport: { width: w, height: 900 } });
